@@ -8,7 +8,7 @@ metadata:
 spec:
   releaseName: org1-cacerts-job
   chart:
-    git: https://github.com/divyabhanu97/bevel.git
+    git: https://github.com/mrrancy/bevel
     ref: main
     path: platforms/hyperledger-fabric/charts/generate_cacerts
   values:
@@ -30,4 +30,4 @@ spec:
       imagesecretname: regcred
       
     ca:
-      subject: /C=GB/ST=London/L=London/O=Orderer/CN=ca.org1.surisetty.dev
+      subject: /C=GB/ST=London/L=London/O=Orderer/CN=ca.org1-net.surisetty.dev
